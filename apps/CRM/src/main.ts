@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./services/router/router";
 import { createPinia } from "pinia";
 
-import "./css/index.css"; // Optional: Tailwind or global styles 
+import "@/index.css"; // Optional: Tailwind or global styles 
 
 import { createExampleStore } from "@clickhelp/services";         //import the store factory
 

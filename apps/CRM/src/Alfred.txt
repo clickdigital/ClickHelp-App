@@ -1,4 +1,3 @@
 Test to check Alfred it working 
 Another small change since the update of the git repro
-Another Change
-Morning Alfred
+Change before Kate arrives
