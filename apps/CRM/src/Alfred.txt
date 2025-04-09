@@ -1,3 +1,4 @@
 Test to check Alfred it working 
 Another small change since the update of the git repro
 Change before Kate arrives
+Change post Kate leaving
