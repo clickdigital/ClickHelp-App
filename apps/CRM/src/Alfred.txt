@@ -1,4 +1,1 @@
-Test to check Alfred it working 
-Another small change since the update of the git repro
-Change before Kate arrives
-Change post Kate leaving
+Another Alfred test this time with Slack thrown in to confirm it worked !!
