@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "clickhelp-68faa",
+    "staging": "clickhelp-68faa"
+  },
+  "targets": {
+    "clickhelp-68faa": {
+      "hosting": {
+        "crm": [
+          "clickhelp-crm1234"
+        ],
+        "www": [
+          "clickhelp-68faa"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

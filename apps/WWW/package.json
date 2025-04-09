@@ -1,0 +1,32 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "@clickhelp/services": "git+https://github.com/clickdigital/ClickHelp-Services.git",
+    "pinia": "^3.0.1",
+    "vue": "^3.3.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.13",
+    "@tailwindcss/vite": "^4.0.17",
+    "@types/node": "^22.13.10",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "cypress": "^14.0.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "vite": "^5.0.0"
+  }
+}
