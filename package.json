@@ -4,11 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "WWW": "npm --prefix ./apps/WWW run dev",
+    "CRM": "npm --prefix ./apps/CRM run dev"
   },
   "dependencies": {
     "@clickhelp/services": "git+https://github.com/clickdigital/ClickHelp-Services.git",

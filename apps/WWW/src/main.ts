@@ -4,7 +4,7 @@ import router from "./services/router/router";
 import { createPinia } from "pinia";
 import { registerStores } from "@clickhelp/services";   //import stores from @clickhelp/services
 
-import "./css/index.css"; // Optional: Tailwind or global styles 
+import "./services/css/index.css"; // Optional: Tailwind or global styles 
 
 const app = createApp(App);
 

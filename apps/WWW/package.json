@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "update": "npm update @clickhelp/services",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",

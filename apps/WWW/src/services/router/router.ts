@@ -2,30 +2,32 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router"
 import HomeView from "@/views/ExampleForm.vue";
 
 const routes: Array<RouteRecordRaw> = [
-  { path: '',redirect: '/home' },
-  { path: '/home',component: HomeView },
-  { path: '/', name: 'home', component: HomeView },
+/** Public Facing */
+{ path: '',redirect: '/home' },
+{ path: '/home',component: HomeView },
+{ path: '/', name: 'home', component: HomeView },
 
-  //general
-  { path: '/questions/sitemap', name: 'sitemap', component: () => import('@/views/public/Footer/questions/SiteMapPage.vue') },
-  { path: '/branchlocator', name: 'branchlocator', component: () => import("@/views/public/Footer/branch/BranchLocatorPage.vue") },
-  
-  //Sections/WhyUS
-  { path: '/whyus', name: 'whyus', component: () => import('@/views/public/Sections/WhyUs/WhyUsPage.vue'),
-    children: [ 
-      {path: 'skilled', name: 'skilled', component: () => import('@/views/public/Sections/WhyUs/SkilledPage.vue') },
-      {path: 'trusted', name: 'trusted', component: () => import('@/views/public/Sections/WhyUs/TrustedPage.vue')},
-      {path: 'safe', name: 'safe', component: () => import('@/views/public/Sections/WhyUs/SafePage.vue')},
-    ]},
+//General
+{ path: '/questions/sitemap', name: 'sitemap', component: () => import('@/views/public/Footer/questions/SiteMapPage.vue') },
+{ path: '/branchlocator', name: 'branchlocator', component: () => import("@/views/public/Footer/branch/BranchLocatorPage.vue") },
 
-   //Sections/HowCanWeHelp
-   { path: '/howcanwehelp', name: 'howcanwehelp', component: () => import('@/views/public/Sections/HowWeHelp/HowHelpPage.vue'),
+//Sections/WhyUS
+{ path: '/whyus', name: 'whyus', component: () => import('@/views/public/Sections/WhyUs/WhyUsPage.vue'),
+  children: [ 
+    {path: 'skilled', name: 'skilled', component: () => import('@/views/public/Sections/WhyUs/SkilledPage.vue') },
+    {path: 'trusted', name: 'trusted', component: () => import('@/views/public/Sections/WhyUs/TrustedPage.vue')},
+    {path: 'safe', name: 'safe', component: () => import('@/views/public/Sections/WhyUs/SafePage.vue')},
+  ]},
+
+//Sections/HowCanWeHelp
+{ path: '/howcanwehelp', name: 'howcanwehelp', component: () => import('@/views/public/Sections/HowWeHelp/HowHelpPage.vue'),
     children: [ 
       {path: 'helper', name: 'helper', component: () => import('@/views/public/Sections/HowWeHelp/HelpersPage.vue') },
       {path: 'inside', name: 'inside', component: () => import('@/views/public/Sections/HowWeHelp/InsidePage.vue') },
       {path: 'outside', name: 'outside', component: () => import('@/views/public/Sections/HowWeHelp/OutsidePage.vue') },
   ]},
- //Sections/WhatWeDo
+
+//Sections/WhatWeDo
 { path: '/whatwedo', name: 'whatwedo', component: () => import('@/views/public/Sections/WhatWeDo/WhatWeDoPage.vue'),
     children: [ 
       {path: 'cleaning', name: 'cleaning', component: () => import('@/views/public/Sections/WhatWeDo/CleanersPage.vue') },
@@ -42,11 +44,13 @@ const routes: Array<RouteRecordRaw> = [
     {path: 'register', name: 'register', component: () => import('@/views/public/forms/RegisterPage.vue') },
     {path: 'apply', name: 'apply', component: () => import('@/views/public/forms/ApplicationPage.vue') },
 ]},
+
 //Sections/contact
 { path: '/contact', name: 'letstalk', component: () => import('@/views/public/Sections/Contact/ContactPage.vue'),
   children: [ 
     {path: 'locations', name: 'welcome', component: () => import('@/views/public/Sections/Contact/WelcomePage.vue')},
 ]},
+
 //Footer/company
 { path: '/company', name: 'company', component: () => import('@/views/public/Footer/company/_CompanySection.vue'),
     children: [ 
@@ -74,7 +78,7 @@ const routes: Array<RouteRecordRaw> = [
       { path: 'sitemap', name: 'sitemap', component: () => import('@/views/public/Footer/questions/SiteMapPage.vue')},
     ]},
 
-//Guarded 
+/** Guarded */
 { path: '/dashboard', name: 'dashboard', component: () => import('@/views/guarded/DashboardPage.vue'),meta: { requiresAuth: true } },
 { path: '/diary', name: 'diary', component: () => import('@/views/guarded/DiaryPage.vue'),meta: { requiresAuth: true } },
 { path: '/clienthelp', name: 'clienthelp', component: () => import('@/views/guarded/HelpDeskPage.vue'),meta: { requiresAuth: true } },

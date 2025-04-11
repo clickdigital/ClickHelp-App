@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "2817f9a6452fc2cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef89197ff8090c9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e1289ed23385488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CRM Application Docs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CRM Application Docs"
+            }
+          },
+          {
+            "id": "7a0969839a833c42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AuthStore"
+            }
+          },
+          {
+            "id": "328caa63c881a682",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/UserStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UserStore"
+            }
+          },
+          {
+            "id": "2de89625fe17029f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/UserStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UserStore"
+            }
+          },
+          {
+            "id": "7bffd988aa2a123c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/OrgStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OrgStore"
+            }
+          },
+          {
+            "id": "69342747e194fa6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/FAQStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FAQStore"
+            }
+          },
+          {
+            "id": "f1fe36c7e8479b62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AuthStore"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "7bde999648b7b45d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "834a090cf58db7bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AuthStore"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5c2faf7c63224223",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2daeec148e9db03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e37b6044ffd3b2f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2e0f727457656d7c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46aed46d7f181980",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7b28f2d285593265",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b76b7170ea2066f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d121b659557631da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AuthStore"
+            }
+          },
+          {
+            "id": "1f7845c9006fad34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AuthStore"
+            }
+          },
+          {
+            "id": "c1c7b17dfd52a1ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "63552d7272ebc6c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Stores/AuthStore.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AuthStore"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f1fe36c7e8479b62",
+  "lastOpenFiles": [
+    "Stores/UserStore.md",
+    "Stores/AuthStore.md",
+    "Stores/ScheduleStore.md",
+    "CRM Application Docs.md",
+    "Stores/MessagesStore.md",
+    "Stores/TaskStore.md",
+    "Stores/BillingStore.md",
+    "Stores/BookingStore.md",
+    "Stores/_ReadMe.md",
+    "Stores/OnBoardingStore.md",
+    "Stores/MainStore.md",
+    "Stores/BlogStore.md",
+    "Untitled.md",
+    "Stores/FAQStore.md",
+    "Stores/OrgStore.md",
+    "Stores/TeamStore.md",
+    "Stores/ClientStore.md",
+    "Stores"
+  ]
+}

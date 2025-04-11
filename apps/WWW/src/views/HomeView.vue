@@ -4,6 +4,8 @@
     <!-- <p>{{ storMain.count }}{{ storMain.name }}</p> -->
   </div>
 
+
+
   <h2>storExample</h2>
   <button @click="storExample.readRecords">Read Records</button>
   <button @click="storExample.createRecord({ name: 'New Item', createdAt: Timestamp.now() })">Create Record</button>

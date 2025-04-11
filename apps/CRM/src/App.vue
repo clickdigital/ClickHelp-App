@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { inject, ref } from "vue";
-import Example from "./views/ExampleForm.vue"; //Import the ExampleForm component
+import Example from "./views/TestStuff/ExampleForm"; //Import the ExampleForm component
+import HomeView from "./views/TestStuff/HomeView.vue"; //Import the HomeView component
+
 const url = ref(window.location.hostname === "clickhelp.uk");
 
 //Import the types assocoted with the store
-import { ExampleStoreFactory } from "./services/types/example";   //Had an an import option ExampleStore
-const useExampleStore = inject("storExample") as ExampleStoreFactory;
-if (!useExampleStore) throw new Error("storExample not provided");
-const storExample = useExampleStore(); // ✅ now this works!
+const storExample = inject("storExample")!;
+const storMain = inject("storMain")!;
+const storOption = inject("storOption")!;
+const storAuth = inject("storAuth")!;
 
-//Show store name to prove store is connecting
-const getName = () => {
-  console.log("Store name is:", storExample.storName);
-}
+
+
+console.log("user:", storAuth.user);
 
 </script>
 
@@ -23,15 +24,12 @@ const getName = () => {
 </div>
 
 
-<div v-else class="p-5">
-  
+<div v-else class="p-5"> 
   <div class="P-5">
     <h1 class="text-3xl font-bold">CRM App</h1>
     <p>App view content here</p>
+    <HomeView />
   </div>
-  
-  <Example />
-  
 </div>  
 
 

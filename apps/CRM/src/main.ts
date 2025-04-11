@@ -3,18 +3,20 @@ import App from "./App.vue";
 import router from "./services/router/router";
 import { createPinia } from "pinia";
 
-import "@/index.css"; // Optional: Tailwind or global styles 
+// ✅ registerStores is a wrapper in @clickhelp/services for all the stores
+// IMPORTANT: make sure you build and commit services before running the app
+import { registerStores } from "@clickhelp/services";   //import stores from @clickhelp/services 
 
-import { createExampleStore } from "@clickhelp/services";         //import the store factory
+import "./services/css/index.css"; // Optional: Tailwind or global styles 
 
 const app = createApp(App);
 
-//insert try catch block to handle errors
+// ✅ First, install Pinia, before stores are initalised
+const pinia = createPinia();
+app.use(pinia);
 
-// ✅ Pass db to store factory
-const storExample = createExampleStore();   //add firebase db to the store factory
-app.provide("storExample", storExample);      //provide the store to the app
+// ✅ register the stores with the app - on each page use storExample = inject("storExample")!;
+registerStores(app);
 
-app.use(createPinia());
 app.use(router);
 app.mount("#app");
